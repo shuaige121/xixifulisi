@@ -35,65 +35,34 @@
       </button>
 
       <nav class="nav desktop-nav">
-        <a href="#expertise">
-          <span class="copy zh">专长</span>
-          <span class="copy en">Expertise</span>
-        </a>
-        <a href="#services">
-          <span class="copy zh">服务</span>
-          <span class="copy en">Services</span>
-        </a>
-        <a href="#cases">
-          <span class="copy zh">案例</span>
-          <span class="copy en">Case Studies</span>
-        </a>
-        <a href="#about">
-          <span class="copy zh">关于</span>
-          <span class="copy en">About</span>
-        </a>
-        <a href="#insights">
-          <span class="copy zh">洞察</span>
-          <span class="copy en">Insights</span>
-        </a>
-        <a href="#contact">
-          <span class="copy zh">联系</span>
-          <span class="copy en">Contact</span>
-        </a>
+        <a href="#expertise" data-i18n="nav.expertise">Expertise</a>
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#cases" data-i18n="nav.cases">Case Studies</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#insights" data-i18n="nav.insights">Insights</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
       </nav>
 
       <div class="header-actions">
-        <button class="lang-toggle" type="button" data-lang-switch="zh" aria-pressed="true">中</button>
-        <button class="lang-toggle" type="button" data-lang-switch="en" aria-pressed="false">EN</button>
+        <select id="lang-select" class="lang-select" aria-label="Select Language">
+          <option value="en">English</option>
+          <option value="zh">中文</option>
+          <option value="ja">日本語</option>
+          <option value="fr">Français</option>
+          <option value="pl">Polski</option>
+        </select>
       </div>
     </div>
   </header>
 
   <div class="mobile-menu">
     <nav class="mobile-nav">
-      <a href="#expertise" class="mobile-link">
-        <span class="copy zh">专长</span>
-        <span class="copy en">Expertise</span>
-      </a>
-      <a href="#services" class="mobile-link">
-        <span class="copy zh">服务</span>
-        <span class="copy en">Services</span>
-      </a>
-      <a href="#cases" class="mobile-link">
-        <span class="copy zh">案例</span>
-        <span class="copy en">Case Studies</span>
-      </a>
-      <a href="#about" class="mobile-link">
-        <span class="copy zh">关于</span>
-        <span class="copy en">About</span>
-      </a>
-      <a href="#insights" class="mobile-link">
-        <span class="copy zh">洞察</span>
-        <span class="copy en">Insights</span>
-      </a>
-      <a href="#contact" class="mobile-link">
-        <span class="copy zh">联系</span>
-        <span class="copy en">Contact</span>
-      </a>
+      <a href="#expertise" class="mobile-link" data-i18n="nav.expertise">Expertise</a>
+      <a href="#services" class="mobile-link" data-i18n="nav.services">Services</a>
+      <a href="#cases" class="mobile-link" data-i18n="nav.cases">Case Studies</a>
+      <a href="#about" class="mobile-link" data-i18n="nav.about">About</a>
+      <a href="#insights" class="mobile-link" data-i18n="nav.insights">Insights</a>
+      <a href="#contact" class="mobile-link" data-i18n="nav.contact">Contact</a>
     </nav>
   </div>
 
@@ -101,44 +70,34 @@
     <section class="hero" id="home">
       <div class="container hero-grid">
         <div class="hero-copy" data-reveal>
-          <p class="eyebrow">Renee Pang</p>
-          <h1 class="hero-title">
-            <span class="copy zh">深科技人才连接者</span>
-            <span class="copy en">Deep Tech Talent Connector</span>
+          <p class="eyebrow" data-i18n="hero.badge">Global Tech Recruitment Expert</p>
+          <h1 class="hero-title" data-i18n="hero.title">
+            Connecting Visionary Talent with Future Tech Giants
           </h1>
-          <p class="hero-sub copy zh">
-            专注 AI / 芯片 / 网络安全的高端人才搜寻与精准匹配，帮助企业快速锁定关键岗位，
-            也帮助候选人实现职业跃迁。
-          </p>
-          <p class="hero-sub copy en">
-            Specializing in AI, semiconductors, and cybersecurity executive search. I help companies
-            secure critical hires and guide candidates through decisive career moves.
+          <p class="hero-sub" data-i18n="hero.subtitle">
+            Specializing in AI, Semiconductors, and Cyber Security. Bridges between Singapore, China, and Silicon
+            Valley.
           </p>
           <div class="hero-actions">
-            <a class="btn primary" href="#talent">
-              <span class="copy zh">我是求职者</span>
-              <span class="copy en">I am a candidate</span>
+            <a class="btn primary" href="#expertise" data-i18n="hero.cta">
+              View Expertise
             </a>
-            <a class="btn ghost" href="#employers">
-              <span class="copy zh">我是雇主</span>
-              <span class="copy en">I am an employer</span>
+            <a class="btn ghost" href="#contact" data-i18n="hero.contact">
+              Contact Me
             </a>
           </div>
           <div class="hero-badges">
             <div class="badge">
               <span class="badge-value">6+ yrs</span>
-              <span class="badge-label copy zh">深科技猎头经验</span>
-              <span class="badge-label copy en">Deep tech search</span>
+              <span class="badge-label" data-i18n="exp.subtitle">Deep Tech Search</span>
             </div>
             <div class="badge">
               <span class="badge-value">AI · Chip · Sec</span>
-              <span class="badge-label copy zh">三大核心赛道</span>
-              <span class="badge-label copy en">Core focus areas</span>
+              <span class="badge-label" data-i18n="exp.title">Core Domains</span>
             </div>
             <div class="badge">
               <span class="badge-value">SG · APAC</span>
-              <span class="badge-label copy zh">新加坡与亚太网络</span>
-              <span class="badge-label copy en">Singapore & APAC</span>
+              <span class="badge-label" data-i18n="contact.loc">Location</span>
             </div>
           </div>
         </div>
@@ -148,8 +107,7 @@
             <div class="portrait-overlay">
               <div>
                 <p class="portrait-name">Renee Pang</p>
-                <p class="portrait-role copy zh">深科技猎头顾问</p>
-                <p class="portrait-role copy en">Managing Consultant</p>
+                <p class="portrait-role" data-i18n="hero.badge">Deep Tech Recruiter</p>
               </div>
               <span class="portrait-tag">AI · Chip · Cyber</span>
             </div>
@@ -206,15 +164,9 @@
     <section class="section" id="expertise" data-reveal>
       <div class="container">
         <div class="section-head">
-          <h2 class="section-title">
-            <span class="copy zh">专长领域</span>
-            <span class="copy en">Expertise</span>
-          </h2>
-          <p class="section-sub copy zh">
-            从算法到硬件，从安全到基础设施，覆盖深科技核心岗位。
-          </p>
-          <p class="section-sub copy en">
-            From algorithms to hardware, from security to infrastructure, covering the deep tech stack.
+          <h2 class="section-title" data-i18n="exp.title">Core Domains</h2>
+          <p class="section-sub" data-i18n="exp.subtitle">
+            Deep vertical expertise in cutting-edge technology sectors.
           </p>
         </div>
         <div class="card-grid">
@@ -222,9 +174,8 @@
             <div class="card-icon">
               <img src="assets/icon-ai.png" alt="AI Icon">
             </div>
-            <h3>AI / ML</h3>
-            <p class="copy zh">算法、模型工程、AIGC、推荐与搜索。</p>
-            <p class="copy en">Applied AI, ML engineering, GenAI, search & recommendation.</p>
+            <h3 data-i18n="exp.ai">Artificial Intelligence</h3>
+            <p data-i18n="exp.ai.desc">LLM, Computer Vision, NLP, and AIGC core algorithms.</p>
             <div class="chip-row">
               <span class="chip">CTO</span>
               <span class="chip">AI Lead</span>
@@ -235,9 +186,8 @@
             <div class="card-icon">
               <img src="assets/icon-chip.png" alt="Chip Icon">
             </div>
-            <h3>Semiconductor</h3>
-            <p class="copy zh">芯片设计、验证、封装、EDA、系统架构。</p>
-            <p class="copy en">Chip design, verification, packaging, EDA, system architecture.</p>
+            <h3 data-i18n="exp.chip">Semiconductors</h3>
+            <p data-i18n="exp.chip.desc">Digital/Analog IC Design, EDA, and fabrication processes.</p>
             <div class="chip-row">
               <span class="chip">VP Eng</span>
               <span class="chip">Chip Lead</span>
@@ -248,9 +198,8 @@
             <div class="card-icon">
               <img src="assets/icon-security.png" alt="Security Icon">
             </div>
-            <h3>Cyber Security</h3>
-            <p class="copy zh">云安全、零信任、DevSecOps、数据合规。</p>
-            <p class="copy en">Cloud security, zero-trust, DevSecOps, compliance.</p>
+            <h3 data-i18n="exp.sec">Cyber Security</h3>
+            <p data-i18n="exp.sec.desc">Network Security, Cloud Security, and DevSecOps.</p>
             <div class="chip-row">
               <span class="chip">CISO</span>
               <span class="chip">Security Lead</span>
@@ -264,65 +213,23 @@
     <section class="section" id="services">
       <div class="container">
         <div class="section-head" data-reveal>
-          <h2 class="section-title">
-            <span class="copy zh">双向服务</span>
-            <span class="copy en">Two-Way Service</span>
-          </h2>
-          <p class="section-sub copy zh">
-            为候选人提供职业推动力，为企业提供可落地的人才方案。
-          </p>
-          <p class="section-sub copy en">
-            Accelerate candidate growth while building hiring pipelines that deliver.
+          <h2 class="section-title" data-i18n="serv.title">Services</h2>
+          <p class="section-sub" data-i18n="serv.subtitle">
+            Tailored solutions for employers and candidates.
           </p>
         </div>
         <div class="service-grid" data-reveal>
           <article class="service" id="talent">
-            <h3>
-              <span class="copy zh">面向候选人</span>
-              <span class="copy en">For Candidates</span>
-            </h3>
-            <ul>
-              <li>
-                <span class="copy zh">职业方向梳理与目标岗位匹配</span>
-                <span class="copy en">Career mapping and targeted role matching</span>
-              </li>
-              <li>
-                <span class="copy zh">面试策略与技术评估准备</span>
-                <span class="copy en">Interview strategy and technical preparation</span>
-              </li>
-              <li>
-                <span class="copy zh">薪酬谈判与入职支持</span>
-                <span class="copy en">Compensation guidance and onboarding support</span>
-              </li>
-            </ul>
-            <a class="btn ghost" href="#resume">
-              <span class="copy zh">提交简历</span>
-              <span class="copy en">Submit resume</span>
-            </a>
+            <h3 data-i18n="serv.exec">Executive Search</h3>
+            <p data-i18n="serv.exec.desc">For C-level and Principle Engineer roles.</p>
           </article>
           <article class="service" id="employers">
-            <h3>
-              <span class="copy zh">面向企业</span>
-              <span class="copy en">For Employers</span>
-            </h3>
-            <ul>
-              <li>
-                <span class="copy zh">需求调研与岗位画像共建</span>
-                <span class="copy en">Role profiling and hiring strategy alignment</span>
-              </li>
-              <li>
-                <span class="copy zh">深度寻访与精准推荐</span>
-                <span class="copy en">Deep sourcing and precision shortlisting</span>
-              </li>
-              <li>
-                <span class="copy zh">流程推进与入职保障</span>
-                <span class="copy en">Process management and closing support</span>
-              </li>
-            </ul>
-            <a class="btn ghost" href="#contact">
-              <span class="copy zh">提交需求</span>
-              <span class="copy en">Start a search</span>
-            </a>
+            <h3 data-i18n="serv.team">Team Building</h3>
+            <p data-i18n="serv.team.desc">0-1 R&D team setup for startups.</p>
+          </article>
+          <article class="service">
+            <h3 data-i18n="serv.market">Market Intelligence</h3>
+            <p data-i18n="serv.market.desc">Salary reports and talent mapping.</p>
           </article>
         </div>
       </div>
@@ -331,31 +238,23 @@
     <section class="section" id="cases" data-reveal>
       <div class="container">
         <div class="section-head">
-          <h2 class="section-title">
-            <span class="copy zh">成功案例</span>
-            <span class="copy en">Case Studies</span>
-          </h2>
-          <p class="section-sub copy zh">
-            用结果证明专业度，所有案例均为匿名呈现以保护客户与候选人隐私。
-          </p>
-          <p class="section-sub copy en">
-            Results speak. All cases are anonymized to protect clients and candidates.
+          <h2 class="section-title" data-i18n="cases.title">Success Cases</h2>
+          <p class="section-sub" data-i18n="cases.subtitle">
+            Recent placements and strategic wins.
           </p>
         </div>
         <div class="card-grid">
           <article class="card case">
             <h3>AI Infra Startup</h3>
-            <p class="copy zh">3 周内完成 AI 平台负责人短名单，最终候选人薪资提升 28%。</p>
-            <p class="copy en">Shortlisted AI platform lead in 3 weeks; final offer increased by 28%.</p>
+            <p>Placed Chief Scientist</p>
             <div class="case-meta">
               <span class="tag">Singapore</span>
               <span class="tag">Series B</span>
             </div>
           </article>
           <article class="card case">
-            <h3>Semiconductor R&amp;D</h3>
-            <p class="copy zh">帮助芯片设计团队补齐验证与架构缺口，关键岗位 45 天内完成。</p>
-            <p class="copy en">Closed verification and architecture gaps within 45 days.</p>
+            <h3>Semiconductor R&D</h3>
+            <p>Placed VP of Engineering</p>
             <div class="case-meta">
               <span class="tag">APAC</span>
               <span class="tag">Confidential</span>
@@ -363,8 +262,7 @@
           </article>
           <article class="card case">
             <h3>Cyber Security Group</h3>
-            <p class="copy zh">搭建安全负责人梯队，候选人入职 6 个月内建立跨区安全体系。</p>
-            <p class="copy en">Built security leadership bench; delivered cross-region security program.</p>
+            <p>Placed CISO</p>
             <div class="case-meta">
               <span class="tag">Enterprise</span>
               <span class="tag">Global</span>
@@ -377,32 +275,10 @@
     <section class="section" id="about" data-reveal>
       <div class="container about-grid">
         <div class="about-content">
-          <h2 class="section-title">
-            <span class="copy zh">关于 Renee</span>
-            <span class="copy en">About Renee</span>
-          </h2>
-          <p class="copy zh">
-            Renee Pang 是深科技领域猎头顾问，长期服务 AI、半导体与网络安全赛道。
-            以精确的行业洞察与高效沟通建立人才网络，帮助企业与候选人做出正确决策。
+          <h2 class="section-title" data-i18n="about.title">About Me</h2>
+          <p data-i18n="about.desc">
+            With 2 years of specializing in the tech sector, I have built a robust network of 5000+ candidates...
           </p>
-          <p class="copy en">
-            Renee Pang focuses on executive and senior hiring in AI, semiconductors, and cybersecurity.
-            She builds trusted talent networks and supports decisive hiring outcomes.
-          </p>
-          <div class="about-highlights">
-            <div>
-              <h4 class="copy zh">经验履历</h4>
-              <h4 class="copy en">Background</h4>
-              <p class="copy zh">Dada Consultants · 6 年深科技猎头经验</p>
-              <p class="copy en">Dada Consultants · 6 years in deep tech search</p>
-            </div>
-            <div>
-              <h4 class="copy zh">教育背景</h4>
-              <h4 class="copy en">Education</h4>
-              <p class="copy zh">新加坡管理大学 · 硕士</p>
-              <p class="copy en">Singapore Management University · MSc</p>
-            </div>
-          </div>
         </div>
         <div class="about-media">
           <img src="assets/renee-portrait.png" alt="Renee Pang professional portrait" loading="lazy">
@@ -586,40 +462,25 @@
     <section class="section" id="contact" data-reveal>
       <div class="container contact-grid">
         <div>
-          <h2 class="section-title">
-            <span class="copy zh">联系我</span>
-            <span class="copy en">Contact</span>
-          </h2>
-          <p class="section-sub copy zh">
-            欢迎通过邮件或 LinkedIn 与我沟通合作。
-          </p>
-          <p class="section-sub copy en">
+          <h2 class="section-title" data-i18n="contact.title">Contact</h2>
+          <p class="section-sub" data-i18n="contact.desc">
             Reach out via email or LinkedIn to start a conversation.
           </p>
         </div>
         <div class="contact-card">
           <div>
-            <p class="contact-label">
-              <span class="copy zh">邮箱</span>
-              <span class="copy en">Email</span>
-            </p>
+            <p class="contact-label" data-i18n="contact.email">Email</p>
             <a class="contact-link" href="mailto:renee.p@dadaconsultants.com">renee.p@dadaconsultants.com</a>
           </div>
           <div>
-            <p class="contact-label">
-              <span class="copy zh">领英</span>
-              <span class="copy en">LinkedIn</span>
-            </p>
+            <p class="contact-label" data-i18n="contact.linkedin">LinkedIn</p>
             <a class="contact-link" href="https://www.linkedin.com/in/renee-pang-9a81a31a0/" target="_blank"
               rel="noreferrer">
               linkedin.com/in/renee-pang-9a81a31a0
             </a>
           </div>
           <div>
-            <p class="contact-label">
-              <span class="copy zh">城市</span>
-              <span class="copy en">Location</span>
-            </p>
+            <p class="contact-label" data-i18n="contact.loc">Location</p>
             <p class="contact-text">Singapore</p>
           </div>
         </div>
@@ -648,6 +509,7 @@
     </div>
   </footer>
 
+  <script src="translations.js"></script>
   <script src="script.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </body>
