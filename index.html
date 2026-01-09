@@ -1,594 +1,655 @@
 <!doctype html>
 <html lang="zh-Hans">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Renee Pang | 深科技猎头顾问</title>
-    <meta name="description" content="专注 AI、芯片与网络安全的高端人才搜寻与匹配，连接深科技人才与关键岗位。">
-    <meta property="og:title" content="Renee Pang | 深科技猎头顾问">
-    <meta property="og:description" content="深科技人才与企业的精准连接。">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="assets/renee-portrait.png">
-    <meta property="og:locale" content="zh_CN">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body data-lang="zh">
-    <div class="noise"></div>
-    <header class="site-header">
-      <div class="container header-inner">
-        <a class="logo" href="#home">RP</a>
-        <nav class="nav">
-          <a href="#expertise">
-            <span class="copy zh">专长</span>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Renee Pang | 深科技猎头顾问</title>
+  <meta name="description" content="专注 AI、芯片与网络安全的高端人才搜寻与匹配，连接深科技人才与关键岗位。">
+  <meta property="og:title" content="Renee Pang | 深科技猎头顾问">
+  <meta property="og:description" content="深科技人才与企业的精准连接。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/renee-portrait.png">
+  <meta property="og:locale" content="zh_CN">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body data-lang="zh">
+  <div class="tech-bg"></div>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home">RP</a>
+
+      <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+
+      <nav class="nav desktop-nav">
+        <a href="#expertise">
+          <span class="copy zh">专长</span>
+          <span class="copy en">Expertise</span>
+        </a>
+        <a href="#services">
+          <span class="copy zh">服务</span>
+          <span class="copy en">Services</span>
+        </a>
+        <a href="#cases">
+          <span class="copy zh">案例</span>
+          <span class="copy en">Case Studies</span>
+        </a>
+        <a href="#about">
+          <span class="copy zh">关于</span>
+          <span class="copy en">About</span>
+        </a>
+        <a href="#insights">
+          <span class="copy zh">洞察</span>
+          <span class="copy en">Insights</span>
+        </a>
+        <a href="#contact">
+          <span class="copy zh">联系</span>
+          <span class="copy en">Contact</span>
+        </a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="lang-toggle" type="button" data-lang-switch="zh" aria-pressed="true">中</button>
+        <button class="lang-toggle" type="button" data-lang-switch="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu">
+    <nav class="mobile-nav">
+      <a href="#expertise" class="mobile-link">
+        <span class="copy zh">专长</span>
+        <span class="copy en">Expertise</span>
+      </a>
+      <a href="#services" class="mobile-link">
+        <span class="copy zh">服务</span>
+        <span class="copy en">Services</span>
+      </a>
+      <a href="#cases" class="mobile-link">
+        <span class="copy zh">案例</span>
+        <span class="copy en">Case Studies</span>
+      </a>
+      <a href="#about" class="mobile-link">
+        <span class="copy zh">关于</span>
+        <span class="copy en">About</span>
+      </a>
+      <a href="#insights" class="mobile-link">
+        <span class="copy zh">洞察</span>
+        <span class="copy en">Insights</span>
+      </a>
+      <a href="#contact" class="mobile-link">
+        <span class="copy zh">联系</span>
+        <span class="copy en">Contact</span>
+      </a>
+    </nav>
+  </div>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow">Renee Pang</p>
+          <h1 class="hero-title">
+            <span class="copy zh">深科技人才连接者</span>
+            <span class="copy en">Deep Tech Talent Connector</span>
+          </h1>
+          <p class="hero-sub copy zh">
+            专注 AI / 芯片 / 网络安全的高端人才搜寻与精准匹配，帮助企业快速锁定关键岗位，
+            也帮助候选人实现职业跃迁。
+          </p>
+          <p class="hero-sub copy en">
+            Specializing in AI, semiconductors, and cybersecurity executive search. I help companies
+            secure critical hires and guide candidates through decisive career moves.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#talent">
+              <span class="copy zh">我是求职者</span>
+              <span class="copy en">I am a candidate</span>
+            </a>
+            <a class="btn ghost" href="#employers">
+              <span class="copy zh">我是雇主</span>
+              <span class="copy en">I am an employer</span>
+            </a>
+          </div>
+          <div class="hero-badges">
+            <div class="badge">
+              <span class="badge-value">6+ yrs</span>
+              <span class="badge-label copy zh">深科技猎头经验</span>
+              <span class="badge-label copy en">Deep tech search</span>
+            </div>
+            <div class="badge">
+              <span class="badge-value">AI · Chip · Sec</span>
+              <span class="badge-label copy zh">三大核心赛道</span>
+              <span class="badge-label copy en">Core focus areas</span>
+            </div>
+            <div class="badge">
+              <span class="badge-value">SG · APAC</span>
+              <span class="badge-label copy zh">新加坡与亚太网络</span>
+              <span class="badge-label copy en">Singapore & APAC</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-media" data-reveal>
+          <div class="portrait-card">
+            <img src="assets/renee-portrait.png" alt="Renee Pang portrait">
+            <div class="portrait-overlay">
+              <div>
+                <p class="portrait-name">Renee Pang</p>
+                <p class="portrait-role copy zh">深科技猎头顾问</p>
+                <p class="portrait-role copy en">Managing Consultant</p>
+              </div>
+              <span class="portrait-tag">AI · Chip · Cyber</span>
+            </div>
+          </div>
+          <div class="hero-signal"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlight" data-reveal>
+      <div class="container highlight-grid">
+        <div>
+          <h2 class="section-title">
+            <span class="copy zh">让高端人才与关键岗位彼此确认</span>
+            <span class="copy en">Aligning high-impact talent with mission-critical roles.</span>
+          </h2>
+          <p class="section-sub copy zh">
+            用行业深度、数据驱动和高效的沟通节奏，把招聘从“寻找”变成“确认”。
+          </p>
+          <p class="section-sub copy en">
+            Industry insight, data-driven sourcing, and decisive communication turn hiring from
+            searching into confirmation.
+          </p>
+        </div>
+        <div class="metric-grid">
+          <div class="metric">
+            <span class="metric-value">
+              <span class="copy zh">快节奏</span>
+              <span class="copy en">Fast cadence</span>
+            </span>
+            <span class="metric-label copy zh">核心岗位快速推进</span>
+            <span class="metric-label copy en">Accelerated hiring rhythm</span>
+          </div>
+          <div class="metric">
+            <span class="metric-value">
+              <span class="copy zh">精准匹配</span>
+              <span class="copy en">Precision match</span>
+            </span>
+            <span class="metric-label copy zh">聚焦稀缺与关键岗位</span>
+            <span class="metric-label copy en">Focused on scarce roles</span>
+          </div>
+          <div class="metric">
+            <span class="metric-value">
+              <span class="copy zh">保密透明</span>
+              <span class="copy en">Confidential</span>
+            </span>
+            <span class="metric-label copy zh">候选人隐私优先</span>
+            <span class="metric-label copy en">Privacy-first updates</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="expertise" data-reveal>
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">
+            <span class="copy zh">专长领域</span>
             <span class="copy en">Expertise</span>
-          </a>
-          <a href="#services">
-            <span class="copy zh">服务</span>
-            <span class="copy en">Services</span>
-          </a>
-          <a href="#cases">
-            <span class="copy zh">案例</span>
-            <span class="copy en">Case Studies</span>
-          </a>
-          <a href="#about">
-            <span class="copy zh">关于</span>
-            <span class="copy en">About</span>
-          </a>
-          <a href="#insights">
-            <span class="copy zh">洞察</span>
-            <span class="copy en">Insights</span>
-          </a>
-          <a href="#contact">
-            <span class="copy zh">联系</span>
-            <span class="copy en">Contact</span>
-          </a>
-        </nav>
-        <div class="header-actions">
-          <button class="lang-toggle" type="button" data-lang-switch="zh" aria-pressed="true">中</button>
-          <button class="lang-toggle" type="button" data-lang-switch="en" aria-pressed="false">EN</button>
+          </h2>
+          <p class="section-sub copy zh">
+            从算法到硬件，从安全到基础设施，覆盖深科技核心岗位。
+          </p>
+          <p class="section-sub copy en">
+            From algorithms to hardware, from security to infrastructure, covering the deep tech stack.
+          </p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-icon">
+              <img src="assets/icon-ai.png" alt="AI Icon">
+            </div>
+            <h3>AI / ML</h3>
+            <p class="copy zh">算法、模型工程、AIGC、推荐与搜索。</p>
+            <p class="copy en">Applied AI, ML engineering, GenAI, search & recommendation.</p>
+            <div class="chip-row">
+              <span class="chip">CTO</span>
+              <span class="chip">AI Lead</span>
+              <span class="chip">ML Engineer</span>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-icon">
+              <img src="assets/icon-chip.png" alt="Chip Icon">
+            </div>
+            <h3>Semiconductor</h3>
+            <p class="copy zh">芯片设计、验证、封装、EDA、系统架构。</p>
+            <p class="copy en">Chip design, verification, packaging, EDA, system architecture.</p>
+            <div class="chip-row">
+              <span class="chip">VP Eng</span>
+              <span class="chip">Chip Lead</span>
+              <span class="chip">SoC Arch</span>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-icon">
+              <img src="assets/icon-security.png" alt="Security Icon">
+            </div>
+            <h3>Cyber Security</h3>
+            <p class="copy zh">云安全、零信任、DevSecOps、数据合规。</p>
+            <p class="copy en">Cloud security, zero-trust, DevSecOps, compliance.</p>
+            <div class="chip-row">
+              <span class="chip">CISO</span>
+              <span class="chip">Security Lead</span>
+              <span class="chip">GRC</span>
+            </div>
+          </article>
         </div>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <section class="hero" id="home">
-        <div class="container hero-grid">
-          <div class="hero-copy" data-reveal>
-            <p class="eyebrow">Renee Pang</p>
-            <h1 class="hero-title">
-              <span class="copy zh">深科技人才连接者</span>
-              <span class="copy en">Deep Tech Talent Connector</span>
-            </h1>
-            <p class="hero-sub copy zh">
-              专注 AI / 芯片 / 网络安全的高端人才搜寻与精准匹配，帮助企业快速锁定关键岗位，
-              也帮助候选人实现职业跃迁。
-            </p>
-            <p class="hero-sub copy en">
-              Specializing in AI, semiconductors, and cybersecurity executive search. I help companies
-              secure critical hires and guide candidates through decisive career moves.
-            </p>
-            <div class="hero-actions">
-              <a class="btn primary" href="#talent">
-                <span class="copy zh">我是求职者</span>
-                <span class="copy en">I am a candidate</span>
-              </a>
-              <a class="btn ghost" href="#employers">
-                <span class="copy zh">我是雇主</span>
-                <span class="copy en">I am an employer</span>
-              </a>
-            </div>
-            <div class="hero-badges">
-              <div class="badge">
-                <span class="badge-value">6+ yrs</span>
-                <span class="badge-label copy zh">深科技猎头经验</span>
-                <span class="badge-label copy en">Deep tech search</span>
-              </div>
-              <div class="badge">
-                <span class="badge-value">AI · Chip · Sec</span>
-                <span class="badge-label copy zh">三大核心赛道</span>
-                <span class="badge-label copy en">Core focus areas</span>
-              </div>
-              <div class="badge">
-                <span class="badge-value">SG · APAC</span>
-                <span class="badge-label copy zh">新加坡与亚太网络</span>
-                <span class="badge-label copy en">Singapore & APAC</span>
-              </div>
-            </div>
-          </div>
-          <div class="hero-media" data-reveal>
-            <div class="portrait-card">
-              <img src="assets/renee-portrait.png" alt="Renee Pang portrait">
-              <div class="portrait-overlay">
-                <div>
-                  <p class="portrait-name">Renee Pang</p>
-                  <p class="portrait-role copy zh">深科技猎头顾问</p>
-                  <p class="portrait-role copy en">Managing Consultant</p>
-                </div>
-                <span class="portrait-tag">AI · Chip · Cyber</span>
-              </div>
-            </div>
-            <div class="hero-signal"></div>
-          </div>
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <h2 class="section-title">
+            <span class="copy zh">双向服务</span>
+            <span class="copy en">Two-Way Service</span>
+          </h2>
+          <p class="section-sub copy zh">
+            为候选人提供职业推动力，为企业提供可落地的人才方案。
+          </p>
+          <p class="section-sub copy en">
+            Accelerate candidate growth while building hiring pipelines that deliver.
+          </p>
         </div>
-      </section>
-
-      <section class="highlight" data-reveal>
-        <div class="container highlight-grid">
-          <div>
-            <h2 class="section-title">
-              <span class="copy zh">让高端人才与关键岗位彼此确认</span>
-              <span class="copy en">Aligning high-impact talent with mission-critical roles.</span>
-            </h2>
-            <p class="section-sub copy zh">
-              用行业深度、数据驱动和高效的沟通节奏，把招聘从“寻找”变成“确认”。
-            </p>
-            <p class="section-sub copy en">
-              Industry insight, data-driven sourcing, and decisive communication turn hiring from
-              searching into confirmation.
-            </p>
-          </div>
-          <div class="metric-grid">
-            <div class="metric">
-              <span class="metric-value">
-                <span class="copy zh">快节奏</span>
-                <span class="copy en">Fast cadence</span>
-              </span>
-              <span class="metric-label copy zh">核心岗位快速推进</span>
-              <span class="metric-label copy en">Accelerated hiring rhythm</span>
-            </div>
-            <div class="metric">
-              <span class="metric-value">
-                <span class="copy zh">精准匹配</span>
-                <span class="copy en">Precision match</span>
-              </span>
-              <span class="metric-label copy zh">聚焦稀缺与关键岗位</span>
-              <span class="metric-label copy en">Focused on scarce roles</span>
-            </div>
-            <div class="metric">
-              <span class="metric-value">
-                <span class="copy zh">保密透明</span>
-                <span class="copy en">Confidential</span>
-              </span>
-              <span class="metric-label copy zh">候选人隐私优先</span>
-              <span class="metric-label copy en">Privacy-first updates</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="expertise" data-reveal>
-        <div class="container">
-          <div class="section-head">
-            <h2 class="section-title">
-              <span class="copy zh">专长领域</span>
-              <span class="copy en">Expertise</span>
-            </h2>
-            <p class="section-sub copy zh">
-              从算法到硬件，从安全到基础设施，覆盖深科技核心岗位。
-            </p>
-            <p class="section-sub copy en">
-              From algorithms to hardware, from security to infrastructure, covering the deep tech stack.
-            </p>
-          </div>
-          <div class="card-grid">
-            <article class="card">
-              <h3>AI / ML</h3>
-              <p class="copy zh">算法、模型工程、AIGC、推荐与搜索。</p>
-              <p class="copy en">Applied AI, ML engineering, GenAI, search & recommendation.</p>
-              <div class="chip-row">
-                <span class="chip">CTO</span>
-                <span class="chip">AI Lead</span>
-                <span class="chip">ML Engineer</span>
-              </div>
-            </article>
-            <article class="card">
-              <h3>Semiconductor</h3>
-              <p class="copy zh">芯片设计、验证、封装、EDA、系统架构。</p>
-              <p class="copy en">Chip design, verification, packaging, EDA, system architecture.</p>
-              <div class="chip-row">
-                <span class="chip">VP Eng</span>
-                <span class="chip">Chip Lead</span>
-                <span class="chip">SoC Arch</span>
-              </div>
-            </article>
-            <article class="card">
-              <h3>Cyber Security</h3>
-              <p class="copy zh">云安全、零信任、DevSecOps、数据合规。</p>
-              <p class="copy en">Cloud security, zero-trust, DevSecOps, compliance.</p>
-              <div class="chip-row">
-                <span class="chip">CISO</span>
-                <span class="chip">Security Lead</span>
-                <span class="chip">GRC</span>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="services">
-        <div class="container">
-          <div class="section-head" data-reveal>
-            <h2 class="section-title">
-              <span class="copy zh">双向服务</span>
-              <span class="copy en">Two-Way Service</span>
-            </h2>
-            <p class="section-sub copy zh">
-              为候选人提供职业推动力，为企业提供可落地的人才方案。
-            </p>
-            <p class="section-sub copy en">
-              Accelerate candidate growth while building hiring pipelines that deliver.
-            </p>
-          </div>
-          <div class="service-grid" data-reveal>
-            <article class="service" id="talent">
-              <h3>
-                <span class="copy zh">面向候选人</span>
-                <span class="copy en">For Candidates</span>
-              </h3>
-              <ul>
-                <li>
-                  <span class="copy zh">职业方向梳理与目标岗位匹配</span>
-                  <span class="copy en">Career mapping and targeted role matching</span>
-                </li>
-                <li>
-                  <span class="copy zh">面试策略与技术评估准备</span>
-                  <span class="copy en">Interview strategy and technical preparation</span>
-                </li>
-                <li>
-                  <span class="copy zh">薪酬谈判与入职支持</span>
-                  <span class="copy en">Compensation guidance and onboarding support</span>
-                </li>
-              </ul>
-              <a class="btn ghost" href="#resume">
-                <span class="copy zh">提交简历</span>
-                <span class="copy en">Submit resume</span>
-              </a>
-            </article>
-            <article class="service" id="employers">
-              <h3>
-                <span class="copy zh">面向企业</span>
-                <span class="copy en">For Employers</span>
-              </h3>
-              <ul>
-                <li>
-                  <span class="copy zh">需求调研与岗位画像共建</span>
-                  <span class="copy en">Role profiling and hiring strategy alignment</span>
-                </li>
-                <li>
-                  <span class="copy zh">深度寻访与精准推荐</span>
-                  <span class="copy en">Deep sourcing and precision shortlisting</span>
-                </li>
-                <li>
-                  <span class="copy zh">流程推进与入职保障</span>
-                  <span class="copy en">Process management and closing support</span>
-                </li>
-              </ul>
-              <a class="btn ghost" href="#contact">
-                <span class="copy zh">提交需求</span>
-                <span class="copy en">Start a search</span>
-              </a>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="cases" data-reveal>
-        <div class="container">
-          <div class="section-head">
-            <h2 class="section-title">
-              <span class="copy zh">成功案例</span>
-              <span class="copy en">Case Studies</span>
-            </h2>
-            <p class="section-sub copy zh">
-              用结果证明专业度，所有案例均为匿名呈现以保护客户与候选人隐私。
-            </p>
-            <p class="section-sub copy en">
-              Results speak. All cases are anonymized to protect clients and candidates.
-            </p>
-          </div>
-          <div class="card-grid">
-            <article class="card case">
-              <h3>AI Infra Startup</h3>
-              <p class="copy zh">3 周内完成 AI 平台负责人短名单，最终候选人薪资提升 28%。</p>
-              <p class="copy en">Shortlisted AI platform lead in 3 weeks; final offer increased by 28%.</p>
-              <div class="case-meta">
-                <span class="tag">Singapore</span>
-                <span class="tag">Series B</span>
-              </div>
-            </article>
-            <article class="card case">
-              <h3>Semiconductor R&amp;D</h3>
-              <p class="copy zh">帮助芯片设计团队补齐验证与架构缺口，关键岗位 45 天内完成。</p>
-              <p class="copy en">Closed verification and architecture gaps within 45 days.</p>
-              <div class="case-meta">
-                <span class="tag">APAC</span>
-                <span class="tag">Confidential</span>
-              </div>
-            </article>
-            <article class="card case">
-              <h3>Cyber Security Group</h3>
-              <p class="copy zh">搭建安全负责人梯队，候选人入职 6 个月内建立跨区安全体系。</p>
-              <p class="copy en">Built security leadership bench; delivered cross-region security program.</p>
-              <div class="case-meta">
-                <span class="tag">Enterprise</span>
-                <span class="tag">Global</span>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="about" data-reveal>
-        <div class="container about-grid">
-          <div class="about-content">
-            <h2 class="section-title">
-              <span class="copy zh">关于 Renee</span>
-              <span class="copy en">About Renee</span>
-            </h2>
-            <p class="copy zh">
-              Renee Pang 是深科技领域猎头顾问，长期服务 AI、半导体与网络安全赛道。
-              以精确的行业洞察与高效沟通建立人才网络，帮助企业与候选人做出正确决策。
-            </p>
-            <p class="copy en">
-              Renee Pang focuses on executive and senior hiring in AI, semiconductors, and cybersecurity.
-              She builds trusted talent networks and supports decisive hiring outcomes.
-            </p>
-            <div class="about-highlights">
-              <div>
-                <h4 class="copy zh">经验履历</h4>
-                <h4 class="copy en">Background</h4>
-                <p class="copy zh">Dada Consultants · 6 年深科技猎头经验</p>
-                <p class="copy en">Dada Consultants · 6 years in deep tech search</p>
-              </div>
-              <div>
-                <h4 class="copy zh">教育背景</h4>
-                <h4 class="copy en">Education</h4>
-                <p class="copy zh">新加坡管理大学 · 硕士</p>
-                <p class="copy en">Singapore Management University · MSc</p>
-              </div>
-            </div>
-          </div>
-          <div class="about-media">
-            <img src="assets/renee-portrait.png" alt="Renee Pang professional portrait" loading="lazy">
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="process" data-reveal>
-        <div class="container">
-          <div class="section-head">
-            <h2 class="section-title">
-              <span class="copy zh">协作流程</span>
-              <span class="copy en">Process</span>
-            </h2>
-            <p class="section-sub copy zh">透明、可追踪、强调节奏。</p>
-            <p class="section-sub copy en">Transparent, trackable, and fast-paced.</p>
-          </div>
-          <div class="process-grid">
-            <div class="process">
-              <h3>
-                <span class="copy zh">候选人路径</span>
-                <span class="copy en">Candidate flow</span>
-              </h3>
-              <ol>
-                <li>
-                  <span class="step">01</span>
-                  <span class="copy zh">背景沟通与目标确认</span>
-                  <span class="copy en">Career briefing & goal alignment</span>
-                </li>
-                <li>
-                  <span class="step">02</span>
-                  <span class="copy zh">机会匹配与优先推荐</span>
-                  <span class="copy en">Opportunity matching & priority referral</span>
-                </li>
-                <li>
-                  <span class="step">03</span>
-                  <span class="copy zh">面试准备与跟进</span>
-                  <span class="copy en">Interview prep & feedback loop</span>
-                </li>
-                <li>
-                  <span class="step">04</span>
-                  <span class="copy zh">薪酬谈判与入职支持</span>
-                  <span class="copy en">Offer negotiation & onboarding</span>
-                </li>
-              </ol>
-            </div>
-            <div class="process">
-              <h3>
-                <span class="copy zh">企业路径</span>
-                <span class="copy en">Employer flow</span>
-              </h3>
-              <ol>
-                <li>
-                  <span class="step">01</span>
-                  <span class="copy zh">岗位画像与策略对齐</span>
-                  <span class="copy en">Role profiling & hiring strategy</span>
-                </li>
-                <li>
-                  <span class="step">02</span>
-                  <span class="copy zh">深度寻访与初筛</span>
-                  <span class="copy en">Deep sourcing & screening</span>
-                </li>
-                <li>
-                  <span class="step">03</span>
-                  <span class="copy zh">面试安排与进度管理</span>
-                  <span class="copy en">Interview scheduling & pipeline control</span>
-                </li>
-                <li>
-                  <span class="step">04</span>
-                  <span class="copy zh">Offer 及入职保障</span>
-                  <span class="copy en">Offer closing & retention support</span>
-                </li>
-              </ol>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="insights" data-reveal>
-        <div class="container">
-          <div class="section-head">
-            <h2 class="section-title">
-              <span class="copy zh">行业洞察</span>
-              <span class="copy en">Insights</span>
-            </h2>
-            <p class="section-sub copy zh">持续输出行业趋势，建立可信专业形象。</p>
-            <p class="section-sub copy en">Thought leadership on deep tech hiring trends.</p>
-          </div>
-          <div class="card-grid">
-            <article class="card insight">
-              <h3>
-                <span class="copy zh">2024 深科技人才趋势</span>
-                <span class="copy en">2024 Deep Tech Talent Outlook</span>
-              </h3>
-              <p class="copy zh">聚焦 AI 研发与芯片人才供需变化。</p>
-              <p class="copy en">Key shifts in AI R&amp;D and chip talent pipelines.</p>
-              <a class="btn link" href="#contact">
-                <span class="copy zh">获取报告</span>
-                <span class="copy en">Request report</span>
-              </a>
-            </article>
-            <article class="card insight">
-              <h3>
-                <span class="copy zh">高端候选人薪酬地图</span>
-                <span class="copy en">Compensation Map</span>
-              </h3>
-              <p class="copy zh">新加坡与亚太关键岗位薪酬洞察。</p>
-              <p class="copy en">Compensation insights across Singapore & APAC.</p>
-              <a class="btn link" href="#contact">
-                <span class="copy zh">预约咨询</span>
-                <span class="copy en">Book a briefing</span>
-              </a>
-            </article>
-            <article class="card insight">
-              <h3>
-                <span class="copy zh">候选人面试手册</span>
-                <span class="copy en">Interview Playbook</span>
-              </h3>
-              <p class="copy zh">核心岗位面试准备清单与模板。</p>
-              <p class="copy en">A checklist for critical role interviews.</p>
-              <a class="btn link" href="#resume">
-                <span class="copy zh">领取手册</span>
-                <span class="copy en">Get the playbook</span>
-              </a>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="resume" data-reveal>
-        <div class="container contact-grid">
-          <div>
-            <h2 class="section-title">
+        <div class="service-grid" data-reveal>
+          <article class="service" id="talent">
+            <h3>
+              <span class="copy zh">面向候选人</span>
+              <span class="copy en">For Candidates</span>
+            </h3>
+            <ul>
+              <li>
+                <span class="copy zh">职业方向梳理与目标岗位匹配</span>
+                <span class="copy en">Career mapping and targeted role matching</span>
+              </li>
+              <li>
+                <span class="copy zh">面试策略与技术评估准备</span>
+                <span class="copy en">Interview strategy and technical preparation</span>
+              </li>
+              <li>
+                <span class="copy zh">薪酬谈判与入职支持</span>
+                <span class="copy en">Compensation guidance and onboarding support</span>
+              </li>
+            </ul>
+            <a class="btn ghost" href="#resume">
               <span class="copy zh">提交简历</span>
-              <span class="copy en">Submit Your Resume</span>
-            </h2>
-            <p class="section-sub copy zh">
-              填写以下信息，我会在 48 小时内回复。
-            </p>
-            <p class="section-sub copy en">
-              Share your details and I will respond within 48 hours.
-            </p>
-          </div>
-          <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
-            <div class="field">
-              <label for="name">
-                <span class="copy zh">姓名</span>
-                <span class="copy en">Name</span>
-              </label>
-              <input id="name" name="name" type="text" required>
-            </div>
-            <div class="field">
-              <label for="email">
-                <span class="copy zh">邮箱</span>
-                <span class="copy en">Email</span>
-              </label>
-              <input id="email" name="email" type="email" required>
-            </div>
-            <div class="field">
-              <label for="role">
-                <span class="copy zh">目标岗位</span>
-                <span class="copy en">Target role</span>
-              </label>
-              <input id="role" name="role" type="text">
-            </div>
-            <div class="field">
-              <label for="message">
-                <span class="copy zh">补充说明</span>
-                <span class="copy en">Message</span>
-              </label>
-              <textarea id="message" name="message" rows="4"></textarea>
-            </div>
-            <button class="btn primary" type="submit">
-              <span class="copy zh">发送</span>
-              <span class="copy en">Send</span>
-            </button>
-          </form>
-        </div>
-      </section>
-
-      <section class="section" id="contact" data-reveal>
-        <div class="container contact-grid">
-          <div>
-            <h2 class="section-title">
-              <span class="copy zh">联系我</span>
-              <span class="copy en">Contact</span>
-            </h2>
-            <p class="section-sub copy zh">
-              欢迎通过邮件或 LinkedIn 与我沟通合作。
-            </p>
-            <p class="section-sub copy en">
-              Reach out via email or LinkedIn to start a conversation.
-            </p>
-          </div>
-          <div class="contact-card">
-            <div>
-              <p class="contact-label">
-                <span class="copy zh">邮箱</span>
-                <span class="copy en">Email</span>
-              </p>
-              <a class="contact-link" href="mailto:hello@reneepang.com">hello@reneepang.com</a>
-            </div>
-            <div>
-              <p class="contact-label">
-                <span class="copy zh">领英</span>
-                <span class="copy en">LinkedIn</span>
-              </p>
-              <a class="contact-link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-                linkedin.com/in/your-handle
-              </a>
-            </div>
-            <div>
-              <p class="contact-label">
-                <span class="copy zh">城市</span>
-                <span class="copy en">Location</span>
-              </p>
-              <p class="contact-text">Singapore</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <p>© 2024 Renee Pang. All rights reserved.</p>
-        <div class="footer-links">
-          <a href="#home">
-            <span class="copy zh">返回顶部</span>
-            <span class="copy en">Back to top</span>
-          </a>
-          <a href="#contact">
-            <span class="copy zh">合作咨询</span>
-            <span class="copy en">Work together</span>
-          </a>
+              <span class="copy en">Submit resume</span>
+            </a>
+          </article>
+          <article class="service" id="employers">
+            <h3>
+              <span class="copy zh">面向企业</span>
+              <span class="copy en">For Employers</span>
+            </h3>
+            <ul>
+              <li>
+                <span class="copy zh">需求调研与岗位画像共建</span>
+                <span class="copy en">Role profiling and hiring strategy alignment</span>
+              </li>
+              <li>
+                <span class="copy zh">深度寻访与精准推荐</span>
+                <span class="copy en">Deep sourcing and precision shortlisting</span>
+              </li>
+              <li>
+                <span class="copy zh">流程推进与入职保障</span>
+                <span class="copy en">Process management and closing support</span>
+              </li>
+            </ul>
+            <a class="btn ghost" href="#contact">
+              <span class="copy zh">提交需求</span>
+              <span class="copy en">Start a search</span>
+            </a>
+          </article>
         </div>
       </div>
-    </footer>
+    </section>
 
-    <script src="script.js"></script>
-  </body>
+    <section class="section" id="cases" data-reveal>
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">
+            <span class="copy zh">成功案例</span>
+            <span class="copy en">Case Studies</span>
+          </h2>
+          <p class="section-sub copy zh">
+            用结果证明专业度，所有案例均为匿名呈现以保护客户与候选人隐私。
+          </p>
+          <p class="section-sub copy en">
+            Results speak. All cases are anonymized to protect clients and candidates.
+          </p>
+        </div>
+        <div class="card-grid">
+          <article class="card case">
+            <h3>AI Infra Startup</h3>
+            <p class="copy zh">3 周内完成 AI 平台负责人短名单，最终候选人薪资提升 28%。</p>
+            <p class="copy en">Shortlisted AI platform lead in 3 weeks; final offer increased by 28%.</p>
+            <div class="case-meta">
+              <span class="tag">Singapore</span>
+              <span class="tag">Series B</span>
+            </div>
+          </article>
+          <article class="card case">
+            <h3>Semiconductor R&amp;D</h3>
+            <p class="copy zh">帮助芯片设计团队补齐验证与架构缺口，关键岗位 45 天内完成。</p>
+            <p class="copy en">Closed verification and architecture gaps within 45 days.</p>
+            <div class="case-meta">
+              <span class="tag">APAC</span>
+              <span class="tag">Confidential</span>
+            </div>
+          </article>
+          <article class="card case">
+            <h3>Cyber Security Group</h3>
+            <p class="copy zh">搭建安全负责人梯队，候选人入职 6 个月内建立跨区安全体系。</p>
+            <p class="copy en">Built security leadership bench; delivered cross-region security program.</p>
+            <div class="case-meta">
+              <span class="tag">Enterprise</span>
+              <span class="tag">Global</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" data-reveal>
+      <div class="container about-grid">
+        <div class="about-content">
+          <h2 class="section-title">
+            <span class="copy zh">关于 Renee</span>
+            <span class="copy en">About Renee</span>
+          </h2>
+          <p class="copy zh">
+            Renee Pang 是深科技领域猎头顾问，长期服务 AI、半导体与网络安全赛道。
+            以精确的行业洞察与高效沟通建立人才网络，帮助企业与候选人做出正确决策。
+          </p>
+          <p class="copy en">
+            Renee Pang focuses on executive and senior hiring in AI, semiconductors, and cybersecurity.
+            She builds trusted talent networks and supports decisive hiring outcomes.
+          </p>
+          <div class="about-highlights">
+            <div>
+              <h4 class="copy zh">经验履历</h4>
+              <h4 class="copy en">Background</h4>
+              <p class="copy zh">Dada Consultants · 6 年深科技猎头经验</p>
+              <p class="copy en">Dada Consultants · 6 years in deep tech search</p>
+            </div>
+            <div>
+              <h4 class="copy zh">教育背景</h4>
+              <h4 class="copy en">Education</h4>
+              <p class="copy zh">新加坡管理大学 · 硕士</p>
+              <p class="copy en">Singapore Management University · MSc</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-media">
+          <img src="assets/renee-portrait.png" alt="Renee Pang professional portrait" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process" data-reveal>
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">
+            <span class="copy zh">协作流程</span>
+            <span class="copy en">Process</span>
+          </h2>
+          <p class="section-sub copy zh">透明、可追踪、强调节奏。</p>
+          <p class="section-sub copy en">Transparent, trackable, and fast-paced.</p>
+        </div>
+        <div class="process-grid">
+          <div class="process">
+            <h3>
+              <span class="copy zh">候选人路径</span>
+              <span class="copy en">Candidate flow</span>
+            </h3>
+            <ol>
+              <li>
+                <span class="step">01</span>
+                <span class="copy zh">背景沟通与目标确认</span>
+                <span class="copy en">Career briefing & goal alignment</span>
+              </li>
+              <li>
+                <span class="step">02</span>
+                <span class="copy zh">机会匹配与优先推荐</span>
+                <span class="copy en">Opportunity matching & priority referral</span>
+              </li>
+              <li>
+                <span class="step">03</span>
+                <span class="copy zh">面试准备与跟进</span>
+                <span class="copy en">Interview prep & feedback loop</span>
+              </li>
+              <li>
+                <span class="step">04</span>
+                <span class="copy zh">薪酬谈判与入职支持</span>
+                <span class="copy en">Offer negotiation & onboarding</span>
+              </li>
+            </ol>
+          </div>
+          <div class="process">
+            <h3>
+              <span class="copy zh">企业路径</span>
+              <span class="copy en">Employer flow</span>
+            </h3>
+            <ol>
+              <li>
+                <span class="step">01</span>
+                <span class="copy zh">岗位画像与策略对齐</span>
+                <span class="copy en">Role profiling & hiring strategy</span>
+              </li>
+              <li>
+                <span class="step">02</span>
+                <span class="copy zh">深度寻访与初筛</span>
+                <span class="copy en">Deep sourcing & screening</span>
+              </li>
+              <li>
+                <span class="step">03</span>
+                <span class="copy zh">面试安排与进度管理</span>
+                <span class="copy en">Interview scheduling & pipeline control</span>
+              </li>
+              <li>
+                <span class="step">04</span>
+                <span class="copy zh">Offer 及入职保障</span>
+                <span class="copy en">Offer closing & retention support</span>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="insights" data-reveal>
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">
+            <span class="copy zh">行业洞察</span>
+            <span class="copy en">Insights</span>
+          </h2>
+          <p class="section-sub copy zh">持续输出行业趋势，建立可信专业形象。</p>
+          <p class="section-sub copy en">Thought leadership on deep tech hiring trends.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card insight">
+            <h3>
+              <span class="copy zh">2024 深科技人才趋势</span>
+              <span class="copy en">2024 Deep Tech Talent Outlook</span>
+            </h3>
+            <p class="copy zh">聚焦 AI 研发与芯片人才供需变化。</p>
+            <p class="copy en">Key shifts in AI R&amp;D and chip talent pipelines.</p>
+            <a class="btn link" href="#contact">
+              <span class="copy zh">获取报告</span>
+              <span class="copy en">Request report</span>
+            </a>
+          </article>
+          <article class="card insight">
+            <h3>
+              <span class="copy zh">高端候选人薪酬地图</span>
+              <span class="copy en">Compensation Map</span>
+            </h3>
+            <p class="copy zh">新加坡与亚太关键岗位薪酬洞察。</p>
+            <p class="copy en">Compensation insights across Singapore & APAC.</p>
+            <a class="btn link" href="#contact">
+              <span class="copy zh">预约咨询</span>
+              <span class="copy en">Book a briefing</span>
+            </a>
+          </article>
+          <article class="card insight">
+            <h3>
+              <span class="copy zh">候选人面试手册</span>
+              <span class="copy en">Interview Playbook</span>
+            </h3>
+            <p class="copy zh">核心岗位面试准备清单与模板。</p>
+            <p class="copy en">A checklist for critical role interviews.</p>
+            <a class="btn link" href="#resume">
+              <span class="copy zh">领取手册</span>
+              <span class="copy en">Get the playbook</span>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="resume" data-reveal>
+      <div class="container contact-grid">
+        <div>
+          <h2 class="section-title">
+            <span class="copy zh">提交简历</span>
+            <span class="copy en">Submit Your Resume</span>
+          </h2>
+          <p class="section-sub copy zh">
+            填写以下信息，我会在 48 小时内回复。
+          </p>
+          <p class="section-sub copy en">
+            Share your details and I will respond within 48 hours.
+          </p>
+        </div>
+        <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+          <div class="field">
+            <label for="name">
+              <span class="copy zh">姓名</span>
+              <span class="copy en">Name</span>
+            </label>
+            <input id="name" name="name" type="text" required>
+          </div>
+          <div class="field">
+            <label for="email">
+              <span class="copy zh">邮箱</span>
+              <span class="copy en">Email</span>
+            </label>
+            <input id="email" name="email" type="email" required>
+          </div>
+          <div class="field">
+            <label for="role">
+              <span class="copy zh">目标岗位</span>
+              <span class="copy en">Target role</span>
+            </label>
+            <input id="role" name="role" type="text">
+          </div>
+          <div class="field">
+            <label for="message">
+              <span class="copy zh">补充说明</span>
+              <span class="copy en">Message</span>
+            </label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          <button class="btn primary" type="submit">
+            <span class="copy zh">发送</span>
+            <span class="copy en">Send</span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="contact" data-reveal>
+      <div class="container contact-grid">
+        <div>
+          <h2 class="section-title">
+            <span class="copy zh">联系我</span>
+            <span class="copy en">Contact</span>
+          </h2>
+          <p class="section-sub copy zh">
+            欢迎通过邮件或 LinkedIn 与我沟通合作。
+          </p>
+          <p class="section-sub copy en">
+            Reach out via email or LinkedIn to start a conversation.
+          </p>
+        </div>
+        <div class="contact-card">
+          <div>
+            <p class="contact-label">
+              <span class="copy zh">邮箱</span>
+              <span class="copy en">Email</span>
+            </p>
+            <a class="contact-link" href="mailto:renee.p@dadaconsultants.com">renee.p@dadaconsultants.com</a>
+          </div>
+          <div>
+            <p class="contact-label">
+              <span class="copy zh">领英</span>
+              <span class="copy en">LinkedIn</span>
+            </p>
+            <a class="contact-link" href="https://www.linkedin.com/in/renee-pang-9a81a31a0/" target="_blank"
+              rel="noreferrer">
+              linkedin.com/in/renee-pang-9a81a31a0
+            </a>
+          </div>
+          <div>
+            <p class="contact-label">
+              <span class="copy zh">城市</span>
+              <span class="copy en">Location</span>
+            </p>
+            <p class="contact-text">Singapore</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating Email Button -->
+  <a href="mailto:renee.p@dadaconsultants.com" class="floating-btn" aria-label="Send Email">
+    <ion-icon name="mail-outline"></ion-icon>
+  </a>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2024 Renee Pang. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#home">
+          <span class="copy zh">返回顶部</span>
+          <span class="copy en">Back to top</span>
+        </a>
+        <a href="#contact">
+          <span class="copy zh">合作咨询</span>
+          <span class="copy en">Work together</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
 </html>
